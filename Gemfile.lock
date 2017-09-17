@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/DaveTD/superstudio.git
-  revision: 9c1e8768d176e1384a5c316fe5616f5922b81b40
+  revision: 14a5e8248e7dca7a0b3c9befb91b8f213bda84e9
   specs:
-    superstudio (0.8.2008)
+    superstudio (0.8.2009)
 
 GEM
   remote: https://rubygems.org/
@@ -175,7 +175,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
-  superstudio (= 0.8.2008)!
+  superstudio (= 0.8.2009)!
   turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
