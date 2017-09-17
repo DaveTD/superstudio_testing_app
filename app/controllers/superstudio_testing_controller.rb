@@ -1,5 +1,8 @@
 class SuperstudioTestingController < ActionController::Base
 
+  def list_tests
+  end
+
   def simple_to_json
     test_query = Athlete.all
     #test_query = Athlete.limit(150) 

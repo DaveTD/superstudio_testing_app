@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   resources :athletes
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
+  get '/', to: 'superstudio_testing#list_tests'
+
   get '/superstudio/simple_to_json', to: 'superstudio_testing#simple_to_json'
 
   # First test group - single types, single and multiple groupings
