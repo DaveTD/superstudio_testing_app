@@ -1,6 +1,6 @@
 GIT
-  remote: git@gitlab.com:DaveTD/Superstudio.git
-  revision: cef06b1b8045c7b812e9ea3435c612c033560f38
+  remote: https://github.com/DaveTD/superstudio.git
+  revision: 9c1e8768d176e1384a5c316fe5616f5922b81b40
   specs:
     superstudio (0.8.2008)
 
