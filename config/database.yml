@@ -6,3 +6,12 @@ development:
   database: superstudio_test
   username: postgres
   password: Ld9Y6PE64
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  database: superstudio_test
+  username: postgres
+  password: Ld9Y6PE64
