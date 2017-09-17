@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "school_id":{
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "graduation_years": {
+      "type": "integer"
+    },
+    "athletes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "athlete_id": {
+            "type": "integer"
+          },
+          "user": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "first_name": {
+                "type": "string"
+              },
+              "last_name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              }
+            }
+          },
+          "graduation_year": {
+            "type": "integer"
+          },
+          "games": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "game_id": {
+                  "type": "integer"
+                },
+                "home_school_id": {
+                  "type": "integer"
+                },
+                "away_school_id": {
+                  "type": "integer"
+                },
+                "league_quality": {
+                  "type": "string"
+                },
+                "record_date": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

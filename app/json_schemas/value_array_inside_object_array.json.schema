@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "graduation_years": {
+      "type": "integer"
+    },
+    "schools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ids": {
+            "type": "array",
+            "uniqueItems": false,
+            "items": {
+              "type": "integer"
+            }
+          },
+          "names": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "countries": {
+            "type": "array",
+            "uniqueItems": false,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

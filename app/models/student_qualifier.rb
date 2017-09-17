@@ -1,0 +1,2 @@
+class StudentQualifier < ApplicationRecord
+end

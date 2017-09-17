@@ -1,0 +1,1 @@
+json.array! @student_qualifiers, partial: 'student_qualifiers/student_qualifier', as: :student_qualifier

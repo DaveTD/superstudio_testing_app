@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "integer"
+    },
+    "school_id": {
+      "type": "integer"
+    },
+    "graduation_year": {
+      "type": "integer"
+    }},
+  "required": ["id"]
+}

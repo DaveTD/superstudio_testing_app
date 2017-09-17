@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "school_properties": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "graduation_years": {
+          "type": "integer"
+        },
+        "athlete_list": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "school_id": {
+                "type": "integer"
+              },
+              "graduation_year": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

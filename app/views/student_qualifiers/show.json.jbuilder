@@ -1,0 +1,1 @@
+json.partial! "student_qualifiers/student_qualifier", student_qualifier: @student_qualifier

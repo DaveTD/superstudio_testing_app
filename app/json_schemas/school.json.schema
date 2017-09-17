@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "graduation_years": {
+      "type": "integer"
+    },
+    "student_ids": {
+      "type": "array",
+      "uniqueItems": false,
+      "items": {
+        "type": "string"
+      }
+    },
+    "student_ids_again": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "integer"
+      }
+    }
+    },
+  "required": ["id"]
+}
