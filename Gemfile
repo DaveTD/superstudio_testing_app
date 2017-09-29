@@ -4,9 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
-#gem 'superstudio', path: ENV["GEM_LOCATION"]
-
-gem 'superstudio', '0.8.2009', :git => "https://github.com/DaveTD/superstudio.git"
+gem 'superstudio'
 
 gem 'pg'
 # Use Puma as the app server
